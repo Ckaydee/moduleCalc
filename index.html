@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="h1">Percent Error Calculator</h1>
+    <p>
+        <button id="percentYield">Percent Yield</button>
+        <button id="percentError">Percent Error</button>
+    </p>
+    <div>
+        <table>
+            <tr>
+                <td id="alignLeft">Experimental/Actual Value:</td>
+                <td><input id="experimentalInput" type="number"></td>
+            </tr>
+            <tr>
+                <td id="alignLeft">Theoretical Value:</td>
+                <td><input id="theoreticalInput" type="number"></td>
+            </tr>
+            <tr>
+               <td><br></td>
+            </tr>
+            <tr>
+                <td><button id="btn">Calculate</button></td>
+            </tr>
+        </table>
+    </div>
+        <table cellpadding = "0" cellspacing = "0">
+                <tr>
+                    <td id="tdPercentError"><h3 id="h3">Percent Error=</h3></td>
+                    <td>
+                        <table cellpadding = "0" cellspacing = "0">
+                            <tr><td id="topSubscript">|V<sub>Experimental</sub> - V<sub>Theoretical</sub>|</td></tr>
+                            <tr><td id= "line"><hr></td><td> X   100</td></tr><tr><td id="bottomSubscript">V <sub>Theoretical</sub></td></tr>
+                        </table>
+                    </td>
+                </tr>
+        </table>
+        <table>
+           
+        <tr>
+            <td id="resultContd"></td>
+        </tr>
+        </table>
+   
+</body>
+</html>
